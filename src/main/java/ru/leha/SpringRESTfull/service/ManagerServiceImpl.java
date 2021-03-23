@@ -1,5 +1,6 @@
 package ru.leha.SpringRESTfull.service;
 
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,9 +18,10 @@ import java.util.List;
 
 @Slf4j
 @Service
+@RequiredArgsConstructor
 public class ManagerServiceImpl implements ManagerService {
-    @Autowired
-    ManagerRepository managerRepository;
+
+    private final ManagerRepository managerRepository;
 
     @Override
     public Manager getById(Long id){

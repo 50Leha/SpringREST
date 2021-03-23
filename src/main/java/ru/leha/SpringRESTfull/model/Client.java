@@ -23,11 +23,6 @@ import javax.persistence.*;
 @NoArgsConstructor
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Client{
-
-    //@ManyToOne(fetch=FetchType.LAZY)
-    //@JoinColumn(name="manager_id", insertable = false, updatable = false)
-    //private Manager manager;
-
     @Id
     @SequenceGenerator(name = "clientsIdSeq", sequenceName = "clients_id_seq", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "clientsIdSeq")

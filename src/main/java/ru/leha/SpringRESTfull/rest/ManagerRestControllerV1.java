@@ -1,6 +1,7 @@
 package ru.leha.SpringRESTfull.rest;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import io.swagger.annotations.Api;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -19,11 +20,13 @@ import java.util.List;
  * @version 1.0
  */
 
+@RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/v1/managers")
+@Api(value = "managerRestController", tags = {"Managers"})
 public class ManagerRestControllerV1 {
-    @Autowired
-    ManagerService managerService;
+
+    private final ManagerService managerService;
 
     @RequestMapping(value = "{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Manager> getManager(@PathVariable("id") Long managerId) {

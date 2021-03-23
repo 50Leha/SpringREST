@@ -23,7 +23,7 @@ import java.util.List;
 @NoArgsConstructor
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Manager{
-    @OneToMany(targetEntity=Client.class, mappedBy="manager_id",cascade=CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(targetEntity=Client.class, mappedBy="manager_id", cascade=CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Client> clients;
 
     @Id
