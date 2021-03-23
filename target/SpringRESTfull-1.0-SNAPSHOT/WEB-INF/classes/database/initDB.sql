@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS managers
+(
+    manager_id    BIGSERIAL PRIMARY KEY ,
+    name  VARCHAR(200) NOT NULL ,
+    email VARCHAR(200) NOT NULL ,
+    phone VARCHAR(20)  NOT NULL
+);
+CREATE SEQUENCE IF NOT EXISTS managers_id_seq START WITH 1 INCREMENT BY 1;
+
+CREATE TABLE IF NOT EXISTS clients
+(
+    id    BIGSERIAL PRIMARY KEY ,
+    name  VARCHAR(200) NOT NULL ,
+    manager_id BIGINT NOT NULL ,
+    FOREIGN KEY (manager_id) REFERENCES managers (manager_id)
+);
+CREATE SEQUENCE IF NOT EXISTS clients_id_seq START WITH 1 INCREMENT BY 1;
