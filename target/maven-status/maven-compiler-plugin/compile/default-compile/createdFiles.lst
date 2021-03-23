@@ -1,0 +1,12 @@
+ru/leha/SpringRESTfull/SpringRESTfullApplication.class
+ru/leha/SpringRESTfull/model/Client.class
+ru/leha/SpringRESTfull/service/ManagerServiceImpl.class
+ru/leha/SpringRESTfull/rest/ManagerRestControllerV1.class
+ru/leha/SpringRESTfull/rest/ClientRestControllerV1.class
+ru/leha/SpringRESTfull/service/ManagerService.class
+ru/leha/SpringRESTfull/model/Manager.class
+ru/leha/SpringRESTfull/SpringFoxConfig.class
+ru/leha/SpringRESTfull/repository/ManagerRepository.class
+ru/leha/SpringRESTfull/service/ClientService.class
+ru/leha/SpringRESTfull/repository/ClientRepository.class
+ru/leha/SpringRESTfull/service/ClientServiceImpl.class
