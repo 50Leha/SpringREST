@@ -1,0 +1,12 @@
+/home/leha/eclipse_common/SpringRESTfull/src/main/java/ru/leha/SpringRESTfull/service/ClientServiceImpl.java
+/home/leha/eclipse_common/SpringRESTfull/src/main/java/ru/leha/SpringRESTfull/service/ManagerService.java
+/home/leha/eclipse_common/SpringRESTfull/src/main/java/ru/leha/SpringRESTfull/repository/ManagerRepository.java
+/home/leha/eclipse_common/SpringRESTfull/src/main/java/ru/leha/SpringRESTfull/SpringRESTfullApplication.java
+/home/leha/eclipse_common/SpringRESTfull/src/main/java/ru/leha/SpringRESTfull/model/Client.java
+/home/leha/eclipse_common/SpringRESTfull/src/main/java/ru/leha/SpringRESTfull/rest/ManagerRestControllerV1.java
+/home/leha/eclipse_common/SpringRESTfull/src/main/java/ru/leha/SpringRESTfull/repository/ClientRepository.java
+/home/leha/eclipse_common/SpringRESTfull/src/main/java/ru/leha/SpringRESTfull/rest/ClientRestControllerV1.java
+/home/leha/eclipse_common/SpringRESTfull/src/main/java/ru/leha/SpringRESTfull/service/ManagerServiceImpl.java
+/home/leha/eclipse_common/SpringRESTfull/src/main/java/ru/leha/SpringRESTfull/SpringFoxConfig.java
+/home/leha/eclipse_common/SpringRESTfull/src/main/java/ru/leha/SpringRESTfull/service/ClientService.java
+/home/leha/eclipse_common/SpringRESTfull/src/main/java/ru/leha/SpringRESTfull/model/Manager.java
