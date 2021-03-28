@@ -1,0 +1,1 @@
+web: java -Dserver.port=$PORT -jar target/SpringRESTfull-1.0-SNAPSHOT.jar
